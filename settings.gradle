@@ -1,0 +1,36 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Projects"
+include ':app'
+include ':stopwatch'
+include ':calculator'
+include ':tabhost'
+include ':buttons'
+include ':dialog'
+include ':filoio'
+include ':timepicker'
+include ':autocomplete'
+include ':popularvote'
+include ':spinner'
+include ':login'
+include ':sqlite'
+include ':mp3player'
+include ':flash'
+include ':battery'
+include ':calllist'
+include ':urlrequest'
+include ':bmitest'
+include ':listview'
+include ':gpsmap'

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemYeoksam"
+        android:title="역삼역">
+
+    </item>
+    <item
+        android:id="@+id/itemCityHall"
+        android:title="시청역">
+
+    </item>
+    <item
+        android:id="@+id/itemAnyang"
+        android:title="안양역">
+
+    </item>
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/autocomplete" />
+            <option value="$PROJECT_DIR$/battery" />
+            <option value="$PROJECT_DIR$/bmitest" />
+            <option value="$PROJECT_DIR$/buttons" />
+            <option value="$PROJECT_DIR$/calculator" />
+            <option value="$PROJECT_DIR$/calllist" />
+            <option value="$PROJECT_DIR$/dialog" />
+            <option value="$PROJECT_DIR$/filoio" />
+            <option value="$PROJECT_DIR$/flash" />
+            <option value="$PROJECT_DIR$/gpsmap" />
+            <option value="$PROJECT_DIR$/listview" />
+            <option value="$PROJECT_DIR$/login" />
+            <option value="$PROJECT_DIR$/mp3player" />
+            <option value="$PROJECT_DIR$/popularvote" />
+            <option value="$PROJECT_DIR$/spinner" />
+            <option value="$PROJECT_DIR$/sqlite" />
+            <option value="$PROJECT_DIR$/stopwatch" />
+            <option value="$PROJECT_DIR$/tabhost" />
+            <option value="$PROJECT_DIR$/timepicker" />
+            <option value="$PROJECT_DIR$/urlrequest" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
