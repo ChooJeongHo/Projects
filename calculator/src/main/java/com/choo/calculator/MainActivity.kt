@@ -71,4 +71,24 @@ class MainActivity : AppCompatActivity() {          //자식 : 부모(상속)->�
         }
 
     }
+
+    // onPause() 메소드는 액티비티가 일시정지 상태가 되었을 때 호출되는 메소드
+    override fun onPause() {
+        super.onPause()
+    }
+
+    // onResume() 메소드는 액티비티가 다시 시작되었을 때 호출되는 메소드
+    override fun onResume() {
+        super.onResume()
+    }
+
+    // onStop() 메소드는 액티비티가 화면에서 사라졌을 때 호출되는 메소드
+    override fun onStop() {
+        super.onStop()
+    }
+
+    // onDestroy() 메소드는 액티비티가 소멸되었을 때 호출되는 메소드
+    override fun onDestroy() {
+        super.onDestroy()
+    }
 }

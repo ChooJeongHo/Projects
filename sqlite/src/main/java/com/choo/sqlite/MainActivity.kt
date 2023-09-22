@@ -71,6 +71,26 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // onPause() 메소드는 액티비티가 일시정지 상태가 되었을 때 호출되는 메소드
+    override fun onPause() {
+        super.onPause()
+    }
+
+    // onResume() 메소드는 액티비티가 다시 시작되었을 때 호출되는 메소드
+    override fun onResume() {
+        super.onResume()
+    }
+
+    // onStop() 메소드는 액티비티가 화면에서 사라졌을 때 호출되는 메소드
+    override fun onStop() {
+        super.onStop()
+    }
+
+    // onDestroy() 메소드는 액티비티가 소멸되었을 때 호출되는 메소드
+    override fun onDestroy() {
+        super.onDestroy()
+    }
+
     inner class myDBHelper(context: Context) : SQLiteOpenHelper(context, "testMember", null, 1) {
         override fun onCreate(p0: SQLiteDatabase?) {
             p0!!.execSQL("CREATE TABLE memberList (id CHAR(20) PRIMARY KEY, pw CHAR(20), email CHAR(30), phone CHAR(20));")

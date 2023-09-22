@@ -69,4 +69,14 @@ class MainActivity : AppCompatActivity() {
         iFilter.addAction(Intent.ACTION_BATTERY_CHANGED)
         registerReceiver(br, iFilter)
     }
+
+    override fun onStop() {
+        super.onStop()
+        unregisterReceiver(br)
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        unregisterReceiver(br)
+    }
 }
